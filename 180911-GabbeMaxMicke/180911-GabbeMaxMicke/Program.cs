@@ -13,14 +13,7 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("Mata in namn: ");
             string userName = Console.ReadLine();
             Console.WriteLine("Trevligt att träffas " + userName + " jag är den hemliga mästarkodaren.");
-
-            string saga = ""+ userName + " har varit på ICA och handlat smör och pinnar ";
-
             
-           
-            
-            string saga = ""+ userName + " har varit på ICA och handlat smör och pinnar";
-
             string saga = ""+ userName + " har varit på ICA och handlat smör, pinnar samt ";
             Console.WriteLine("Vad brukar du handla?");
             string extraMatvara = Console.ReadLine();
@@ -45,13 +38,10 @@ namespace _180911_GabbeMaxMicke
             string underSkoInput = Console.ReadLine();
             Console.WriteLine("" + underSkoInput + "! Shit va Nice Pizza Slize!");
 
-
             Console.WriteLine("Helt orelaterat.. vaför skriver du ens det här programmet?: ");
             string input = Console.ReadLine();
             Console.WriteLine("Härligt! Att\""+input+"\" låter som en bra idé");
-            Console.WriteLine("Vad har du under skon?: ");
-            string underSkoInput = Console.ReadLine();
-
+            
             Console.WriteLine("Lät ju mindre härligt...");
             Console.WriteLine("Är det okej om jag berättar min livshistoria?");
             string useless = Console.ReadLine();
