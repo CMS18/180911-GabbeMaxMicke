@@ -12,7 +12,7 @@ namespace _180911_GabbeMaxMicke
         {
             Console.WriteLine("Mata in namn: ");
             string userName = Console.ReadLine();
-            Console.WriteLine("Trevligt att träffas " + userName + " jag är den hemliga mästarkodaren.");
+            Console.WriteLine("Trevligt att träffas, " + userName + ", jag är den hemliga mästarkodaren.");
             
             string saga = ""+ userName + " har varit på ICA och handlat smör, pinnar samt ";
             Console.WriteLine("Vad brukar du handla?");
@@ -21,35 +21,36 @@ namespace _180911_GabbeMaxMicke
             saga += ".";
             Console.WriteLine(saga);
 
-            Console.WriteLine("Jag har spenderat hela mitt liv i CMD:en.");
-            Console.WriteLine("Vart har du spenderat hela ditt liv?");
+            Console.Write("Jag har spenderat hela mitt liv i CMD:en.");
+            Console.WriteLine(" Vart har du spenderat hela ditt liv?");
             string userLife = Console.ReadLine();
 
-            Console.Write(userLife + " hmmm... ");
+            Console.Write(userLife + "Hmmm... ");
             Console.WriteLine("Could you be the coder I've been waiting for?");
-            Console.WriteLine("Nej, tyvärr.");
+            Console.WriteLine("HAHA! Nej, tyvärr.");
 
             Console.WriteLine("Så du har spenderat livet i {0}, fan vad tråkigt!", userLife);
             Console.WriteLine("Du har inte funderat på att prova något annat? I sådant fall, vad?");
-            string userInputProv = Console.ReadLine();
-            Console.WriteLine("Fast {0} är ett riktigt kasst yrke. Tänk om!", userInputProv);
+            string userInput = Console.ReadLine();
+            Console.WriteLine("Fast {0} är ett riktigt kasst yrke. Tänk om!", userInput);
             
-            Console.WriteLine("Vad har du under skon?: ");
+            Console.WriteLine("Du förresten, vad har du under skon?: ");
             string underSkoInput = Console.ReadLine();
-            Console.WriteLine("" + underSkoInput + "! Shit va Nice Pizza Slize!");
+            Console.WriteLine("" + underSkoInput + "! Shit va Nice Pizza Slize! Låter riktigt gott med {0}", underSkoInput);
 
-            Console.WriteLine("Nej, helt orelaterat.. vaför skriver du ens det här programmet?: ");
+            Console.WriteLine("Nej, det där var onödigt.. vaför skriver du ens det här programmet?: ");
             string input = Console.ReadLine();
             Console.WriteLine("Härligt! Att\""+input+"\" låter som en bra idé");
             
-            Console.WriteLine("Lät ju mindre härligt...");
             Console.WriteLine("Är det okej om jag berättar min livshistoria?");
             string useless = Console.ReadLine();
             Console.WriteLine("{0}? För längesen i ett modem långt långt bort...",useless);
             Console.WriteLine(".");
             Console.WriteLine("Bodde en kontakt som någon råkat dra ut...");
             Console.WriteLine("Utan värmen från sitt hem så var kontakten tvungen att tänka på sin överlevnad.");
-            Console.WriteLine("Kontakten ålade sig fram i jakt efter ett nytt hem, till hans förskräckelse upptäcker han att... ");
+            Console.WriteLine("Kontakten ålade sig fram i jakt efter ett nytt hem. Till hans förskräckelse upptäcker han att... ");
+            Console.WriteLine("HAN HAR BOSATT SIG I EN ÄLGMAGE!");
+
             Console.ReadLine();
         }
     }
