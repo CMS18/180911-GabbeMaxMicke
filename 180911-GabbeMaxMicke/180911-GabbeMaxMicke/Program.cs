@@ -50,7 +50,8 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("Helt orelaterat.. vaför skriver du ens det här programmet?: ");
             string input = Console.ReadLine();
             Console.WriteLine("Härligt! Att\""+input+"\" låter som en bra idé");
-            
+            Console.WriteLine("Vad har du under skon?: ");
+            underSkoInput = Console.ReadLine();
 
             Console.WriteLine("Lät ju mindre härligt...");
             Console.WriteLine("Är det okej om jag berättar min livshistoria?");
