@@ -16,11 +16,15 @@ namespace _180911_GabbeMaxMicke
 
             string saga = ""+ userName + " har varit på ICA och handlat smör och pinnar ";
 
+            
+           
+            
+
+            string saga = ""+ userName + " har varit på ICA och handlat smör, pinnar samt ";
             Console.WriteLine("Vad brukar du handla?");
             string extraMatvara = Console.ReadLine();
             saga += extraMatvara;
             saga += ".";
-
             Console.WriteLine(saga);
 
             
@@ -31,11 +35,12 @@ namespace _180911_GabbeMaxMicke
 
             Console.WriteLine(userLife + " hmmm...");
             Console.WriteLine("Could you be the coder I've been waiting for?");
+            Console.WriteLine("Nej, tyvärr.");
 
-            Console.WriteLine("Jaha! Så du har spenderat livet i {0} fan vad tråkigt!", userLife);
-            Console.WriteLine("Du har inte funderat på att prova något annat?");
+            Console.WriteLine("Jaha! Så du har spenderat livet i {0}, fan vad tråkigt!", userLife);
+            Console.WriteLine("Du har inte funderat på att prova något annat? I sådant fall, vad?");
             string userInputProv = Console.ReadLine();
-
+            Console.WriteLine("Fast {0} är ett riktigt kasst yrke. Tänk om!", userInputProv);
             
             Console.WriteLine("Vad har du under skon?: ");
             string underSkoInput = Console.ReadLine();
