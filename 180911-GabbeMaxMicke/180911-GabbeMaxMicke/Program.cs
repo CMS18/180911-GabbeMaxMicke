@@ -12,12 +12,20 @@ namespace _180911_GabbeMaxMicke
         {
             Console.WriteLine("Mata in namn: ");
             string userName = Console.ReadLine();
+            string saga = ""+ userName + " har varit på ICA och handlat smör och ";
+            string extraMatvara = Console.ReadLine();
+            saga += extraMatvara;
+            saga += ".";
+            Console.WriteLine(saga);
 
             Console.WriteLine("Trevligt att träffas " + userName + " jag är den hemliga mästarkodaren.");
 
             Console.WriteLine("Jag har spenderat hela mitt liv i CMD:en.");
             Console.WriteLine("Vart har du spenderat hela ditt liv?");
             string userLife = Console.ReadLine();
+
+            Console.WriteLine(userLife + " hmmm...");
+            Console.WriteLine("Could you be the coder I've been waiting for?");
 
             Console.WriteLine("Jaha! Så du har spenderat livet i {0} fan vad tråkigt!", userLife);
             Console.WriteLine("Du har inte funderat på att prova något annat?");
