@@ -12,6 +12,9 @@ namespace _180911_GabbeMaxMicke
         {
             Console.WriteLine("Mata in namn: ");
             string userName = Console.ReadLine();
+
+            Console.WriteLine("Vad har du under skon?: ");
+            string underSkoInput = Console.ReadLine();
         }
     }
 }
