@@ -12,6 +12,10 @@ namespace _180911_GabbeMaxMicke
         {
             Console.WriteLine("Mata in namn: ");
             string userName = Console.ReadLine();
+            string saga = ""+ userName + " har varit på ICA och handlat smör och ";
+            string extraMatvara = Console.ReadLine();
+            saga += extraMatvara;
+            saga += ".";
         }
     }
 }
