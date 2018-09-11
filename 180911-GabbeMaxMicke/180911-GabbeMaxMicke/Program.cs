@@ -49,6 +49,10 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("Bodde en kontakt som någon råkat dra ut...");
             Console.WriteLine("Utan värmen från sitt hem så var kontakten tvungen att tänka på sin överlevnad.");
             Console.WriteLine("Kontakten ålade sig fram i jakt efter ett nytt hem. Till hans förskräckelse upptäcker han att... ");
+            Console.WriteLine("HAN HAR BOSATT SIG I EN ÄLGMAGE!");
+
+            System.Media.SoundPlayer moose = new System.Media.SoundPlayer(@"C:\Users\gabbe\source\repos\180911-GabbeMaxMicke\180911-GabbeMaxMicke\Moose sounds.wav");
+            moose.Play();
             Console.WriteLine("HAN HAR BOSATT SIG I EN.. JA, I VADÅ?");
             string bosatt = Console.ReadLine();
             Console.WriteLine("VA? KONTAKTEN HAR BOSATT SIG I {0}, USCH!", bosatt);
