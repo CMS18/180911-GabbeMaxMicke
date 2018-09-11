@@ -36,6 +36,7 @@ namespace _180911_GabbeMaxMicke
 
             Console.WriteLine("Vad har du under skon?: ");
             string underSkoInput = Console.ReadLine();
+            Console.WriteLine("" + underSkoInput + "! Shit va Nice Pizza Slize!");
         }
     }
 }
