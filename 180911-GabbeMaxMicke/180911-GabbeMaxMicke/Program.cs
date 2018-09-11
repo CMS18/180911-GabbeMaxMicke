@@ -25,11 +25,11 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("Vart har du spenderat hela ditt liv?");
             string userLife = Console.ReadLine();
 
-            Console.WriteLine(userLife + " hmmm...");
+            Console.Write(userLife + " hmmm... ");
             Console.WriteLine("Could you be the coder I've been waiting for?");
             Console.WriteLine("Nej, tyvärr.");
 
-            Console.WriteLine("Jaha! Så du har spenderat livet i {0}, fan vad tråkigt!", userLife);
+            Console.WriteLine("Så du har spenderat livet i {0}, fan vad tråkigt!", userLife);
             Console.WriteLine("Du har inte funderat på att prova något annat? I sådant fall, vad?");
             string userInputProv = Console.ReadLine();
             Console.WriteLine("Fast {0} är ett riktigt kasst yrke. Tänk om!", userInputProv);
@@ -38,14 +38,14 @@ namespace _180911_GabbeMaxMicke
             string underSkoInput = Console.ReadLine();
             Console.WriteLine("" + underSkoInput + "! Shit va Nice Pizza Slize!");
 
-            Console.WriteLine("Helt orelaterat.. vaför skriver du ens det här programmet?: ");
+            Console.WriteLine("Nej, helt orelaterat.. vaför skriver du ens det här programmet?: ");
             string input = Console.ReadLine();
             Console.WriteLine("Härligt! Att\""+input+"\" låter som en bra idé");
             
             Console.WriteLine("Lät ju mindre härligt...");
             Console.WriteLine("Är det okej om jag berättar min livshistoria?");
             string useless = Console.ReadLine();
-            Console.WriteLine("För längesen i ett modem långt långt bort...");
+            Console.WriteLine("{0}? För längesen i ett modem långt långt bort...",useless);
             Console.WriteLine(".");
             Console.WriteLine("Befann sig en ip-address som gång på gång ändrades.");
             Console.ReadLine();
