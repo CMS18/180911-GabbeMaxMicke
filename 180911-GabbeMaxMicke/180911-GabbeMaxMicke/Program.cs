@@ -19,6 +19,10 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("Vart har du spenderat hela ditt liv?");
             string userLife = Console.ReadLine();
 
+            Console.WriteLine("Jaha! Så du har spenderat livet i {0} fan vad tråkigt!", userLife);
+            Console.WriteLine("Du har inte funderat på att prova något annat?");
+            string userInputProv = Console.ReadLine();
+
 
 
 
