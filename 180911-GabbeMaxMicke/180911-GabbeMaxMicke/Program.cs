@@ -12,6 +12,15 @@ namespace _180911_GabbeMaxMicke
         {
             Console.WriteLine("Mata in namn: ");
             string userName = Console.ReadLine();
+
+            Console.WriteLine("Trevligt att träffas " + userName + " jag är den hemliga mästarkodaren.");
+
+            Console.WriteLine("Jag har spenderat hela mitt liv i CMD:en.");
+            Console.WriteLine("Vart har du spenderat hela ditt liv?");
+            string userLife = Console.ReadLine();
+
+
+
         }
     }
 }
