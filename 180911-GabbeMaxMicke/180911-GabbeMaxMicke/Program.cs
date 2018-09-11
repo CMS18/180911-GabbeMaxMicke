@@ -38,6 +38,14 @@ namespace _180911_GabbeMaxMicke
 
             Console.WriteLine("Vad har du under skon?: ");
             string underSkoInput = Console.ReadLine();
+
+            Console.WriteLine("Lät ju mindre härligt...");
+            Console.WriteLine("Är det okej om jag berättar min livshistoria?");
+            string useless = Console.ReadLine();
+            Console.WriteLine("För längesen i ett modem långt långt bort...");
+            Console.WriteLine(".");
+            Console.WriteLine("Befann sig en ip-address som gång på gång ändrades.");
+            Console.ReadKey();
         }
     }
 }
