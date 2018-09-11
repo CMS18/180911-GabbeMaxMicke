@@ -48,6 +48,8 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("{0}? För längesen i ett modem långt långt bort...",useless);
             Console.WriteLine(".");
             Console.WriteLine("Bodde en kontakt som någon råkat dra ut...");
+            Console.WriteLine("Utan värmen från sitt hem så var kontakten tvungen att tänka på sin överlevnad.");
+            Console.WriteLine("Kontakten ålade sig fram i jakt efter ett nytt hem, till hans förskräckelse upptäcker han att... ");
             Console.ReadLine();
         }
     }
