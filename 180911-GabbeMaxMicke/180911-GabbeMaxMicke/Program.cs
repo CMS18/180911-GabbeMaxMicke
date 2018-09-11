@@ -47,7 +47,7 @@ namespace _180911_GabbeMaxMicke
             string useless = Console.ReadLine();
             Console.WriteLine("{0}? För längesen i ett modem långt långt bort...",useless);
             Console.WriteLine(".");
-            Console.WriteLine("Befann sig en ip-address som gång på gång ändrades.");
+            Console.WriteLine("Bodde en kontakt som någon råkat dra ut...");
             Console.ReadLine();
         }
     }
