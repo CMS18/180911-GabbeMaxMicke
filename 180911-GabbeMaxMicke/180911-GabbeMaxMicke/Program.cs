@@ -49,6 +49,16 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("Helt orelaterat.. vaför skriver du ens det här programmet?: ");
             string input = Console.ReadLine();
             Console.WriteLine("Härligt! Att\""+input+"\" låter som en bra idé");
+            Console.WriteLine("Vad har du under skon?: ");
+            string underSkoInput = Console.ReadLine();
+
+            Console.WriteLine("Lät ju mindre härligt...");
+            Console.WriteLine("Är det okej om jag berättar min livshistoria?");
+            string useless = Console.ReadLine();
+            Console.WriteLine("För längesen i ett modem långt långt bort...");
+            Console.WriteLine(".");
+            Console.WriteLine("Befann sig en ip-address som gång på gång ändrades.");
+            Console.ReadKey();
         }
     }
 }
