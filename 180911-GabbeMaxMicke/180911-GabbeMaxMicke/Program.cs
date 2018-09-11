@@ -19,6 +19,9 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("Vart har du spenderat hela ditt liv?");
             string userLife = Console.ReadLine();
 
+            Console.WriteLine(userLife + " hmmm...");
+            Console.WriteLine("Could you be the coder I've been waiting for?");
+
 
 
         }
