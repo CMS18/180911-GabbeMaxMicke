@@ -51,6 +51,8 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("Kontakten ålade sig fram i jakt efter ett nytt hem. Till hans förskräckelse upptäcker han att... ");
             Console.WriteLine("HAN HAR BOSATT SIG I EN ÄLGMAGE!");
 
+            System.Media.SoundPlayer moose = new System.Media.SoundPlayer(@"C:\Users\gabbe\source\repos\180911-GabbeMaxMicke\180911-GabbeMaxMicke\Moose sounds.wav");
+            moose.Play();
             Console.ReadLine();
         }
     }
