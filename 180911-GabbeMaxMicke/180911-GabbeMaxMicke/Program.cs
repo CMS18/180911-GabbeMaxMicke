@@ -21,8 +21,6 @@ namespace _180911_GabbeMaxMicke
             saga += ".";
             Console.WriteLine(saga);
 
-            
-
             Console.WriteLine("Jag har spenderat hela mitt liv i CMD:en.");
             Console.WriteLine("Vart har du spenderat hela ditt liv?");
             string userLife = Console.ReadLine();
@@ -40,20 +38,17 @@ namespace _180911_GabbeMaxMicke
             string underSkoInput = Console.ReadLine();
             Console.WriteLine("" + underSkoInput + "! Shit va Nice Pizza Slize!");
 
-
             Console.WriteLine("Helt orelaterat.. vaför skriver du ens det här programmet?: ");
             string input = Console.ReadLine();
             Console.WriteLine("Härligt! Att\""+input+"\" låter som en bra idé");
-            Console.WriteLine("Vad har du under skon?: ");
-            underSkoInput = Console.ReadLine();
-
+            
             Console.WriteLine("Lät ju mindre härligt...");
             Console.WriteLine("Är det okej om jag berättar min livshistoria?");
             string useless = Console.ReadLine();
             Console.WriteLine("För längesen i ett modem långt långt bort...");
             Console.WriteLine(".");
             Console.WriteLine("Befann sig en ip-address som gång på gång ändrades.");
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
