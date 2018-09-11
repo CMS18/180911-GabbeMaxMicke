@@ -12,10 +12,13 @@ namespace _180911_GabbeMaxMicke
         {
             Console.WriteLine("Mata in namn: ");
             string userName = Console.ReadLine();
-            string saga = ""+ userName + " har varit på ICA och handlat smör och ";
+
+            string saga = ""+ userName + " har varit på ICA och handlat smör och pinnar";
+
             string extraMatvara = Console.ReadLine();
             saga += extraMatvara;
             saga += ".";
+
             Console.WriteLine(saga);
 
             Console.WriteLine("Trevligt att träffas " + userName + " jag är den hemliga mästarkodaren.");
@@ -31,9 +34,7 @@ namespace _180911_GabbeMaxMicke
             Console.WriteLine("Du har inte funderat på att prova något annat?");
             string userInputProv = Console.ReadLine();
 
-
-
-
+            
             Console.WriteLine("Vad har du under skon?: ");
             string underSkoInput = Console.ReadLine();
         }
